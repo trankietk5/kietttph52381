@@ -36,7 +36,7 @@ def show_menu():
         print("0. Thoát")
 
         try:
-            chon = int(input("Mời nhập chương trình: "))
+            chon = float(input("Mời nhập chương trình: "))
             
             if chon == 1:
                 hienThi()
@@ -75,7 +75,7 @@ def show_menu():
                 print("Lựa chọn không hợp lệ, vui lòng thử lại.")
                 
         except ValueError:
-            print("Lựa chọn không hợp lệ, không được nhập ký tự, vui lòng thử lại đúng yêu cầu(1-5)")
+            print("Lựa chọn không hợp lệ, không được nhập ký tự, vui lòng thử lại đúng yêu cầu(1-10)")
 
 
 show_menu()
